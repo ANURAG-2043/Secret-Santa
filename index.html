@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎅 Secret Santa Party</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="snow-container"></div>
+
+  <div class="main-container">
+
+    <div class="left-panel">
+        <img src="images/santa.png" alt="Santa Claus peeking" class="santa-image">
+    </div>
+
+    <div class="right-panel">
+      <div class="card">
+        <form action="https://formspree.io/f/xyzrngjn" method="POST">
+            <h1>🎁 Secret Santa 2025</h1>
+            <p>Select your name & confirm availability</p>
+    
+            <select id="userSelect" name="Name" required>
+              <option value="" disabled selected>-- Select Your Name --</option>
+            </select>
+            
+            <input type="email" id="userEmail" name="Email" placeholder="Your Email (For updates)" required>
+    
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="Attendance_Status" value="Yesss_Cant_Wait" required> 🎉 Yesss! Can't Wait!
+              </label>
+              <label>
+                <input type="radio" name="Attendance_Status" value="Hell_Yess_Party" required> ✨ Hell Yess! Where's the party?
+              </label>
+              <label>
+                <input type="radio" name="Attendance_Status" value="Cant_Say_No" required> 🤷‍♀️ Can't say no (Maybe, but I'll try!)
+              </label>
+              <label>
+                <input type="radio" name="Attendance_Status" value="No_Next_Time" required> 💔 Nah, maybe next time...
+              </label>
+            </div>
+    
+            <button type="submit">MARK MY PRESENCE ✍️</button>
+    
+            <div id="result" class="result-box"></div>
+        </form>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
