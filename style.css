@@ -58,7 +58,6 @@ body {
   justify-content: center;
   
   /* Apply a slight overlap and lift it above the left panel */
-  margin-left: -20px; /* Pulls the panel 20px over the left panel */
   z-index: 1; /* Ensures content/card is on top */
 
   /* Gradient Background */
