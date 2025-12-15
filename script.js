@@ -18,7 +18,7 @@ const names = [
     "Pranali Revankar", "Sucheta Salian", "Aneel Hudaalee",
     "Anurag Kumbhare", "Shardul Gharat", "Diana Lobo", "Jayesh Nangare",
     "Kashmira Lowalekar Ghosh", "Manoj Jangid", "Sumit Tiwari",
-    "Jainam Gala", "Sindhu Vazhoor", "Ashish Bodinge"
+    "Jainam Gala", "Sindhu Vazhoor", "Ashish Bodinge","Chidanand Charate"
 ];
 
 // --- 1. Populate Dropdown ---
